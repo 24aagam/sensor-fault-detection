@@ -38,7 +38,7 @@ class DataIngestion:
         except Exception as e:
             raise CustomException(e, sys)
         
-    def export_data_into_feature_store_file_path(self)-> pd.DataFrame:
+    def export_data_into_feature_store_file_path(self)-> pd.DataFrame: #The function will return a DataFrame.
 
         try:
 
